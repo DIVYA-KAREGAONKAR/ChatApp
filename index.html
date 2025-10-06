@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat UI</title>,
+  <!-- Include Socket.IO client library -->
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="client.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-wrapper">
+    
+    <div class="chat-logo">
+        <img src="chat.png" alt="Chat Logo" />
+        <h2>Group Chat App</h2>
+    </div>
+
+    <div class="chat-box">
+      
+    </div>
+
+    <form class="input-area">
+      <input id="input-field" type="text" placeholder="Type your message..." />
+      <button id="SendButton">Send</button>
+    </form>
+    
+  </div>
+   
+</body>
+</html>
